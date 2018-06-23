@@ -38,3 +38,12 @@
  // ssh-keygen -t rsa -C "592908853@qq.com"  生成秘钥
 //  id_rsa中的内容便是私钥，id_rsa.pub中的内容便是公钥。
 // 打开github点击头像->setting-> ssh 添加公钥  必须用文本复制形式，cat或者vim查看复制保存key会报错
+
+// git鼓励大量使用分支
+
+// 查看分支 git branch
+// 创建分支 git branch test1
+// 切换分支 git checkout test1
+// 创建+切换分支  git checkout -b test1
+// 合并某分支到当前分支 git merge test1
+// 删除分支  git branch -D test1
